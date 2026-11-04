@@ -18,6 +18,11 @@ target/
 *.iws
 *.iml
 *.ipr
+# Environment secrets
+.env
+.env.*
+!.env.example
+application-local.properties
 
 ### NetBeans ###
 /nbproject/private/
